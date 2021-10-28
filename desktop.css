@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* for desktop  */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.nav-logo{
+    text-align: left;
+}
+
+.nav-heading{
+    text-align: right;
+}
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-menu a{
+    width: 180px;
+    margin: 5px;
+    padding: 5px;
+    /* border: 3px solid  rgb(43, 9, 9);
+    border: none; */
+}
+
+
+/*
+.navbar-menu a:hover{
+    border: 3px solid  white;
+    /* background-color: transparent; */
+} */
+
+
+/* navbar end  */
+
+/* profile start  */
+.hr{
+    border: 1px solid white;
+    width: 700px;
+    margin: 5px auto;
+}
+
+.profile .profile-con h1{
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 200px;
+    letter-spacing: 1px;
+}
+.profile .profile-con h2{
+	font-size: 32px;
+	font-family: 'Cabin', sans-serif; 
+	font-weight: 700;
+    color:white;
+    text-align:center;
+    letter-spacing: 0.5px;
+    padding: 20px 0px 0px 0px;
+}
+
+.profile .profile-con h5{
+    font-size: 1.3rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+    color: rgba(236, 233, 248, 0.993);
+    text-align:center;
+    margin-top: 5px;
+}
+
+/* profile end  */
+
+/* aboutme start  */
+.about-me h2{
+    font-size: 1.8rem;
+}
+.aboutme-desc{
+    padding: 20px 0px;
+}
+.about-img img{
+    margin-top: 150px;
+    height: 260px;
+    width: 260px;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+/* aboutme end  */
+
+
+/* professional experience start  */
+.professional-exp h2{
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+/* professional experience end  */
+
+
+
+/* mywork strat  */
+.mywork .card{
+    width: 400px;
+}
+
+.mywork .card-img{
+    width: 100%;
+    height: 280px;
+}
+/* mywork end  */
+
+/* achievement-contact start */
+.achievement-contact h2{
+    font-size: 1.8rem;
+}
+
+.achievement-desc p{
+    text-align: left;
+}
+.contact button{
+    width: 150px;
+    font-size: 1.2rem;
+}
+
+
+/* contact links  */
+.media-buttons{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.media-buttons .btn{
+    padding: 3%;
+    margin: 3%;
+}
+/* achievement-contact end  */
+
+
+/* footer start  */
+.footer-menu a{
+    display: inline-block;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+
+.footer-desc{
+    letter-spacing: 0.8px;
+    margin: 10px;
+}
+/* footer end  */
+
+
+
+
+
+
+
